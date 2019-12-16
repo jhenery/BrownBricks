@@ -1,0 +1,73 @@
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="header" style="z-index: 9;">
+            <a href="index.html">Main Page</a>
+            <a href="application.html">Apply</a>
+        </div>
+        <div class ="bg">
+        </div>
+        <div style="margin-left: 40%; margin-right: 40%;">
+            <p style="border: 10px; border-color: white;">Please enter your information below to apply to Brown Bricks:</p>
+                <form method="post" action="contact-form-handler.php">
+                    <p></p>
+                    Your Character Name, Level, and Class (i.e.: Qwackas 60 Warlock):
+                    <input type="text" name="info"> 
+                    <p></p>
+                    Your Discord Tag:
+                    <input type="text" name="discord"> 
+                    <p></p>
+                    Preferred Email Address:
+                    <input type="text" name="email">
+                    <p></p>
+                    Response to the Brown Bricks Video (Paragraph Minimum):
+                    <textarea name="message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+        </div>
+    </body>
+</html> -->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Contact Form</title>
+</head>
+
+<body>
+    <!--
+    <form method="POST" action="/contact-form-handler.php">
+            <label>Name</label>
+            <input name="info" placeholder="Type Here">
+            
+            <label>Discord</label>
+            <input name="discord" placeholder="Type Here">
+
+            <label>Email</label>
+            <input name="email" type="email" placeholder="Type Here">
+                    
+            <label>Message</label>
+            <textarea name="message" placeholder="Type Here"></textarea>
+                    
+            <input id="submit" name="submit" type="submit">
+    </form>-->
+    <form action="contact-form-handler.php" method="POST">
+        <div>
+          <label for="say">What greeting do you want to say?</label>
+          <input name="say" id="say" value="Hi">
+        </div>
+        <div>
+          <label for="to">Who do you want to say it to?</label>
+          <input name="to" id="to" value="Mom">
+        </div>
+        <div>
+          <button>Send my greetings</button>
+        </div>
+      </form>
+</body>
+
+</html>
